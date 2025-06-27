@@ -1,0 +1,98 @@
+:root {
+  --light-font: #222222;
+  --dark-font: #fff;
+  --light-bg: #f9f9f9;
+  --dark-bg: #121212;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  font-family: 'Lora', serif;
+  text-align: center;
+  padding: 5rem 2rem;
+  color: var(--light-font);
+  background-color: var(--light-bg);
+}
+
+#dark-mode-toggle {
+  cursor: pointer;
+  font-size: 2rem;
+  user-select: none;
+    background: none;
+    border: none;
+}
+
+.material-symbols-outlined {
+  color: var(--light-font);
+  font-size: 2rem;
+}
+
+body.dark-mode .material-symbols-outlined {
+  color: var(--dark-font);
+  font-size: 2rem;
+}
+
+
+
+body.dark-mode{
+  color: var(--dark-font);
+  background-color: var(--dark-bg);
+}
+
+#new-quote{
+    margin-top: 4rem;
+}
+
+#new-quote{
+  padding: 10px 20px;
+  background-color: orange;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.heading {
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
+  line-height: 2.5rem;
+  width: 50vw;
+  max-width: 600px;   /* prevent it from being too wide */
+}
+
+h1 {
+  margin: 2rem 0;
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+.quote-container {
+  margin: 5rem 0;
+  border: 2px solid var(--medium-gray);
+  width: 80%;
+  max-width: 600px;
+  min-height: 100px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 4rem;
+  line-height: 2.3rem;
+  display: none; /* show via JS */
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: var(--dark-gray);
+  color: var(--dark-font);
+}
