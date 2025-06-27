@@ -1,8 +1,3 @@
-Here's a professional and clean `README.md` you can use for your repository [Generate-Random-Quotes](https://github.com/Thalesmar/Generate-Random-Quotes):
-
----
-
-````markdown
 # 🎲 Generate Random Quotes
 
 A simple web app that displays random inspirational quotes every time you click a button. Built using HTML, CSS, and JavaScript.
@@ -28,7 +23,7 @@ A simple web app that displays random inspirational quotes every time you click 
 ```bash
 git clone https://github.com/Thalesmar/Generate-Random-Quotes.git
 cd Generate-Random-Quotes
-````
+
 
 ### 2. Open the app
 
@@ -69,6 +64,9 @@ This project is open source and available under the [MIT License](LICENSE).
 > Made with ❤️ by [Thalesmar](https://github.com/Thalesmar)
 
 ```
+
+---
+
 
 ---
 
